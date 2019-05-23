@@ -56,3 +56,20 @@ displayNewLine(
 `mayNotAttend`: This is for anyones who attends in (for me, programming) contest only. This parameter is optional. `true` if you cannot attend a contest and nothing if you can
 
 Also, every timer will turn green if the time is near and purple if the timer runs out.
+
+## Set optional languages
+
+Before calling `displayNewLine(...)`, you can set your desired languages using 
+```js
+setLang(lang: string)
+```
+
+The `lang` parameter can be:
+
+* `vi` for Vietnamese. Format `DD ngày hh giờ mm phút ss giây`
+
+* `en` for English. Format `DD day(s) hh hour(s) mm minute(s) ss second(s)`
+
+* `de` for German. Format `DD Tag(e) hh Stunde(n) mm Minute(n) ss Sekunde(n)`
+
+* Any other string for default language. Format `-- d -- h -- m -- s`
