@@ -1,7 +1,7 @@
 # jscountdown
 > A small library for creating countdown timere with js
 
-> written by infrustrationMC
+> written by minhperry
 
 ## How to import
 
